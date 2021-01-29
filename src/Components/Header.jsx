@@ -19,7 +19,7 @@ function Header()
       <Nav.Link href="https://socdashboard.herokuapp.com/auth/google"> <button class='register'>
              
               
-              <span class="button-text"><a href="https://socdashboard.herokuapp.com/auth/google">REGISTER FOR WORKSHOP</a></span>
+              <span class="button-text"><a href="https://socdashboard.herokuapp.com/admin/dashboard">REGISTER FOR WORKSHOP</a></span>
            
             </button></Nav.Link>
   </Nav>
