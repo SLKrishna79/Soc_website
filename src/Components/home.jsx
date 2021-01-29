@@ -3,7 +3,7 @@ import Header from "./Header";
 import Animation from "./Anime/Animation";
 import Footer from "./Footer"
 import About from "./About"
-import Contact from "./Contact"
+
 
 
 function Home() {
@@ -12,7 +12,7 @@ function Home() {
        <Header />
        <Animation />
        <About /> 
-       <Contact />
+       
        <Footer />
     </div>
   );
