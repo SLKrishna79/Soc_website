@@ -1,0 +1,53 @@
+@media screen and (min-width: 992px){
+    .cardht {
+        height:'430px',
+    }
+}
+ ul.portfolio-tags {
+    padding: 10px 0 10px 0;
+    align-items: center;
+}
+ li.portfolio-tag {
+    list-style-type: none;
+    font-size: 10px;
+    font-weight: 1000;
+    color: #ea2b5b;
+    display: inline;
+    border: 2px solid #ea2b5b;
+    border-radius: 5px;
+    padding: 8px;
+    align-items: center;
+    margin-right: 10px;
+}
+ul {
+    margin-top: 0;
+    margin-bottom: 10px;
+    margin: auto;
+}
+.completed{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+#ongoing{
+    
+    margin-bottom: 30px;
+}
+.OP{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+#CPtitle{
+    text-align: center;
+}
+@media only screen and (min-width: 992px) {
+    .OP{
+      padding-left: 35px;
+      padding-right: 35px;
+    }
+  }
+  @media only screen and (min-width: 992px) {
+    .completed{
+      padding-left: 35px;
+      padding-right: 35px;
+    }
+  }
