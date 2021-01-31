@@ -42,7 +42,7 @@ class Middle extends Component{
               <div className='row'>
               <div className='col-12'>
               <h1 className='d-flex justify-content-center' style={{color:'#fe3265',fontSize:'2.5em'}}>RECENT EVENTS</h1>
-              <p className='d-flex justify-content-center' style={{color:'#fe3265',fontSize:'2.5em'}}> Session for Freshers</p>
+              <p className='d-flex justify-content-center' style={{color:'#fe3265',fontSize:'2.5em'}}> Check out the upcoming events we have in store for you!</p>
               </div>
               </div>
           </React.Fragment>
