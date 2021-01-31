@@ -41,8 +41,8 @@ class Middle extends Component{
           <React.Fragment>
               <div className='row'>
               <div className='col-12'>
-              <h1 className='d-flex justify-content-center' style={{color:'#fe3265',fontSize:'3vw'}}>RECENT EVENTS</h1>
-              <p className='d-flex justify-content-center' style={{color:'#fe3265',fontSize:'2vw'}}> Check out the upcoming events we have in store for you!</p>
+              <h1 className='d-flex justify-content-center' style={{color:'#fe3265',fontSize:'2.5em'}}>RECENT EVENTS</h1>
+              <p className='d-flex justify-content-center' style={{color:'#fe3265',fontSize:'2.5em'}}> Session for Freshers</p>
               </div>
               </div>
           </React.Fragment>
@@ -55,55 +55,58 @@ class Bottom extends Component{
         this.state={
                 events : [
                     
+                   
+                   
                     {
                         id:0,
-                        date:'27th Oct - 26th Nov',
-                        heading: 'CreatiWFacts',
-                        subheading: 'Open Event',
-                        matter: 'An online event in which the society posts the basic functions and usage of all the photoshop tools.',
+                        date:'30th Jan',
+                        heading: 'Session on intro to Web development and Git',
+                        subheading: 'Open Workshop',
+                        matter: 'Gives a basic idea on Web Development and Git',
                     },
                     {
                         id:1,
-                        date:'11th Nov - 15th Nov',
-                        heading: 'Digital Arts Competition',
-                        subheading: 'Open Competition',
-                        matter: 'The society organises a design competition on the occasion of National Education Day.',
-                    },
-                    {
-                        id:2,
-                        date:'27th June',
-                        heading: 'Web UI Workshop',
-                        subheading: 'Closed Webinar',
-                        matter: 'A webinar conductd in collaboration with Eeveno. The webinar covers Basics of Prototyping, Responsive grids, components states and naming conventions.',
-                    },
-                    {
-                        id:3,
-                        date:'21st May - 1st June',
-                        heading: 'Online Workshop on PHP MySQL',
-                        subheading: 'Open Workshop',
-                        matter: 'A 12 day online workshop in which the members post the resources sufficient enough to gain basic knowledge on HTML, CSS, Bootstrap, PHP and MySQL.',
-                    },
-                    {
-                        id:4,
-                        date:'17th Jan',
-                        heading: 'Beginners workshop on Design',
-                        subheading: 'Open Workshop',
-                        matter: 'Covers basic tools and their uses in Photoshop',
-                    },
-                    {
-                        id:5,
                         date:'24th Jan',
                         heading: 'Beginners workshop on Design Part2',
                         subheading: 'Open Workshop',
                         matter: 'Covers almost every tool and their uses in Photoshop',
                     },
                     {
-                        id:6,
-                        date:'30th Jan',
-                        heading: 'Session on intro to Web development and Git',
+                        id:2,
+                        date:'17th Jan',
+                        heading: 'Beginners workshop on Design',
                         subheading: 'Open Workshop',
-                        matter: 'Gives a basic idea on Web Development and Git',
-                    },    
+                        matter: 'Covers basic tools and their uses in Photoshop',
+                    },
+                    {
+                        id:3,
+                        date:'27th Oct - 26th Nov',
+                        heading: 'CreatiWFacts',
+                        subheading: 'Open Event',
+                        matter: 'An online event in which the society posts the basic functions and usage of all the photoshop tools.',
+                    },
+                    {
+                        id:4,
+                        date:'11th Nov - 15th Nov',
+                        heading: 'Digital Arts Competition',
+                        subheading: 'Open Competition',
+                        matter: 'The society organises a design competition on the occasion of National Education Day.',
+                    },
+                    {
+                        id:5,
+                        date:'27th June',
+                        heading: 'Web UI Workshop',
+                        subheading: 'Closed Webinar',
+                        matter: 'A webinar conductd in collaboration with Eeveno. The webinar covers Basics of Prototyping, Responsive grids, components states and naming conventions.',
+                    },
+                    {
+                        id:6,
+                        date:'21st May - 1st June',
+                        heading: 'Online Workshop on PHP MySQL',
+                        subheading: 'Open Workshop',
+                        matter: 'A 12 day online workshop in which the members post the resources sufficient enough to gain basic knowledge on HTML, CSS, Bootstrap, PHP and MySQL.',
+                    },
+                       
                 ]
         };
     };
@@ -114,12 +117,12 @@ class Bottom extends Component{
                     <div className='cen'>
                     <div className='row align-items-center p-4'>
                         <div className='offset-lg-1 col-5 col-lg-4'>
-                           <h1 className='d-flex justify-content-center' style={{color:'#fe3265',fontSize:'3vw'}}> {event.date}</h1>
+                           <h1 className='d-flex justify-content-center' style={{color:'#fe3265',fontSize:'2em'}}> {event.date}</h1>
                         </div>
                         <div className='col-1 col-lg-1 vertical'></div>
                         <div className='col-6 col-lg-4'>
-                            <h1 style={{color:'#fe3265',fontSize:'2.5vw'}}>{event.heading}</h1><br/>
-                            <p style={{color:'#696969',fontSize:'1.5vw'}}><b style={{color:'white',fontSize:'2vw'}}>{event.subheading}</b><br/>{event.matter}</p> 
+                            <h1 style={{color:'#fe3265',fontSize:'2em'}}>{event.heading}</h1><br/>
+                            <p style={{color:'#696969',fontSize:'1.5em'}}><b style={{color:'white',fontSize:'1em'}}>{event.subheading}</b><br/>{event.matter}</p> 
                         </div>
                     </div>
                     <div className='offset-lg-1 offset-1 col-10 col-lg-9' style={{backgroundColor:'white'}}>
