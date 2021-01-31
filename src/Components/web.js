@@ -207,8 +207,8 @@ class Web extends Component{
                 </div>
                 <div className='row' id='CPtitle'>
                 <br />
-                <h1 className="col-12 mr-auto d-none d-md-block " style={{color:'#fe3265'}}>Completed Projects</h1>
-                <h3 className="col-12 mr-auto d-md-none" style={{color:'#fe3265'}}>Completed Projects</h3>
+                <h1 className="col-12 mr-auto d-none d-md-block " style={{color:'#fe3265'}}>Recent Projects</h1>
+                <h3 className="col-12 mr-auto d-md-none" style={{color:'#fe3265'}}>Recent Projects</h3>
                 </div>
                 <br />
                 <Pro />
