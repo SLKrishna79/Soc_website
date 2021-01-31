@@ -41,7 +41,7 @@ class Middle extends Component{
           <React.Fragment>
               <div className='row'>
               <div className='col-12'>
-              <h1 className='d-flex justify-content-center' style={{color:'#fe3265',fontSize:'3vw'}}>UPCOMING EVENTS</h1>
+              <h1 className='d-flex justify-content-center' style={{color:'#fe3265',fontSize:'3vw'}}>RECENT EVENTS</h1>
               <p className='d-flex justify-content-center' style={{color:'#fe3265',fontSize:'2vw'}}> Check out the upcoming events we have in store for you!</p>
               </div>
               </div>
@@ -54,41 +54,56 @@ class Bottom extends Component{
         super(props);
         this.state={
                 events : [
+                    
                     {
                         id:0,
-                        date:'Dec - Jan',
-                        heading: 'Online Workshop',
-                        subheading: 'Open Workshop',
-                        matter: 'Covers right from the basic to an advanced Nodejs Level.',
-                    },
-                    {
-                        id:1,
                         date:'27th Oct - 26th Nov',
                         heading: 'CreatiWFacts',
                         subheading: 'Open Event',
                         matter: 'An online event in which the society posts the basic functions and usage of all the photoshop tools.',
                     },
                     {
-                        id:2,
+                        id:1,
                         date:'11th Nov - 15th Nov',
                         heading: 'Digital Arts Competition',
                         subheading: 'Open Competition',
                         matter: 'The society organises a design competition on the occasion of National Education Day.',
                     },
                     {
-                        id:3,
+                        id:2,
                         date:'27th June',
                         heading: 'Web UI Workshop',
                         subheading: 'Closed Webinar',
                         matter: 'A webinar conductd in collaboration with Eeveno. The webinar covers Basics of Prototyping, Responsive grids, components states and naming conventions.',
                     },
                     {
-                        id:4,
+                        id:3,
                         date:'21st May - 1st June',
                         heading: 'Online Workshop on PHP MySQL',
                         subheading: 'Open Workshop',
                         matter: 'A 12 day online workshop in which the members post the resources sufficient enough to gain basic knowledge on HTML, CSS, Bootstrap, PHP and MySQL.',
-                    }, 
+                    },
+                    {
+                        id:4,
+                        date:'17th Jan',
+                        heading: 'Beginners workshop on Design',
+                        subheading: 'Open Workshop',
+                        matter: 'Covers basic tools and their uses in Photoshop',
+                    },
+                    {
+                        id:5,
+                        date:'24th Jan',
+                        heading: 'Beginners workshop on Design Part2',
+                        subheading: 'Open Workshop',
+                        matter: 'Covers almost every tool and their uses in Photoshop',
+                    },
+                    {
+                        id:6,
+                        date:'30th Jan',
+                        heading: 'Session on intro to Web development and Git',
+                        subheading: 'Open Workshop',
+                        matter: 'Gives a basic idea on Web Development and Git',
+                    },    
                 ]
         };
     };
